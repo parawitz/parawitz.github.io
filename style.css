@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body {font-family : 'Roboto', sans-serif;height:100%};
-nav {float:right;
+body {
+     font-family : 'Roboto', sans-serif;
+     height:100%;
+     width:100%
+}
+image {
+     width:33%
+}
+.nav1 {
+     float:right;
      height:105px;
      width:200px;
-     display:flex};
-footer {background-color:rgb(91,53,157);
-       height:300px}
+     display:flex
+}
+footer {
+     position:fixed;
+     float:bottom;
+     width:100%;
+     background-color:rgb(91,53,157);
+     height:20%
+     }
