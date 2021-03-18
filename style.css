@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {font-family : 'Roboto', sans-serif;};
+nav {float:right;
+     height:105px;
+     width:200px;
+     display:flex};
+footer {background-color:rgb(91,53,157);
+       height:300px}
