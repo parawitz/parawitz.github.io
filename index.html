@@ -1,94 +1,142 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
 
-    <title>"Mon petit graphisme"</title>
+<head>
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta cache-control="no-store" />
+  <title>"Mon petit graphisme"</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/3afaa3f267.js" crossorigin="anonymous">
+  </script>
+</head>
 
-    <script
-      src="https://kit.fontawesome.com/3afaa3f267.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+<body>
 
-  <body>
-    <header>
-      <image src="Images/logo_long.png" alt="logo-long"></image>
+  <header>
 
-      <aside class="nav1">
-        <a
-          style="
-            float: right;
-            width: 100px;
-            align-self: center;
-            color: black;
-            text-decoration: none;
-          "
-          href="http://index.html"
-          >Accueil</a
-        >
+    <div class="logo">
+      <img class="cover" src="Images/logo.png" alt="logo" width="100%">
+      </img>
+    </div>
 
-        <a
-          style="
-            float: right;
-            width: 100px;
-            align-self: center;
-            color: black;
-            text-decoration: none;
-          "
-          href="http://contact.html"
-          >Contact</a
-        >
-      </aside>
-    </header>
+    <nav class="nav_haut">
+      <a class="nav_haut_lien" href="http://index.html">
+        Accueil
+      </a>
+      <a class="nav_haut_lien" href="http://contact.html">
+        Contact
+      </a>
+    </nav>
+  </header>
 
-    <article>
-      <image src="Images/backgroung_image.jpg" alt="background" width="100%"></image>
-      <section><p>retest</p></section>
-    </article>
+  <section class="section1">
 
-    <footer style="background-color: rgb(91, 53, 157); color: white;padding-top:1em">
-      <p style="text-align: center">
-        Mon petit graphisme - Agence de graphisme basée à Paris
-      </p>
-      <p style="text-align: center; font-size: 2em">
-        <i
-          class="fab fa-twitter"
-          style="color: rgb(188, 173, 215); padding-right: 50px"
-        ></i>
-        <i class="fab fa-facebook-f" style="color: rgb(188, 173, 215)"></i>
-        <i
-          class="fab fa-instagram"
-          style="color: rgb(188, 173, 215); padding-left: 50px"
-        ></i>
-      </p>
-      <nav style="display: flex;justify-content: space-around">
-        <div style="max-width:33%">
-          <div style="color: rgb(188, 173, 215)">Accès rapides</div>
-          <menu style="padding-left:1em">
-            <li>Accueil</li>
-            <li>Contact</li>
-          </menu>
-        </div>
-        <div style="max-width:33%">
-          <div style="color: rgb(188, 173, 215)">À propos</div>
-          <menu style="padding-left:1em">
-            <li>Données personnelles</li>
-            <li>Mentions légales</li>
-            <li>Cookies</li>
-          </menu>
-        </div>
-        <div style="max-width:33%">
-          <div style="color: rgb(188, 173, 215);padding-bottom:1em">Coordonnées</div>
-          <div style="padding-left:1em">
-            10 Quai de la Charente<br>
-            75009 Paris<br>
-            01 23 45 67 89
-          </div>
-        </div>
-      </nav>
-    </footer>
-  </body>
+    <img class="cover" src="Images/backgroung_image.jpg" alt="background" width="100%">
+    </img>
+
+  </section>
+
+  <section class="section1_cover">
+
+    <div class="section1_cover_box">
+      <div class="section1_cover_content">
+        <img src="Images/logo_long.png" alt="logo_long" width="30%"></img>
+        <div class="padding_top">Agence de graphisme</div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section2">
+    <div class="slogan">Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels
+      attractifs</div>
+    <div class="competences">
+      <div class="competence_box1">
+        <div><img src="Images/graphic-design.png" alt="graphic-design" height="70%"></img></div>
+        <div class="competence">GRAPHISME</div>
+        <div class="details">Que vous ayez besoin de graphisme pour un site web, des
+          cartes de
+          visite ou des affiches, nous réalisons des visuels dont vous serez fiers.</div>
+      </div>
+      <div class="competence_box1">
+        <div><img src="Images/strategie.png" alt="stratégie" height="70%"></img></div>
+        <div class="competence">STRATÉGIE</div>
+        <div class="details">Plutôt que de suggérer des graphismes à la mode, nous
+          prenons le temps
+          de comprendre vos objectifs et nous nous adaptons à vos besoins</div>
+      </div>
+      <div class="competence_box2">
+        <div><img src="Images/illustrations.png" alt="illustrations" height="70%"></img></div>
+        <div class="competence">ILLUSTRATIONS</div>
+        <div class="details">Nos graphistes vous proposeront des illustrations 100%
+          originales</div>
+      </div>
+    </div>
+    <div class="avis">
+      <div>"Mon petit graphisme est une excellente agence de graphisme. <br> Les graphistes sont à l'écoute des besoins
+        et m'ont permis de renouveler complètement la carte de mon restaurant."</div>
+      <div class="client">Amandine, restauratrice</div>
+    </div>
+
+  </section>
+
+  <footer>
+
+    <div>
+      Mon petit graphisme - Agence de graphisme basée à Paris
+    </div>
+
+    <nav class="social">
+      <span class="padding_right">
+        <i class="fab fa-twitter"></i>
+      </span>
+      <span>
+        <i class="fab fa-facebook-f"></i>
+      </span>
+      <span class="padding_left">
+        <i class="fab fa-instagram"></i>
+      </span>
+
+    </nav>
+
+    <nav class="nav_bas">
+
+      <div class="colonne">
+        Accès rapides<br>
+        <ul>
+          <li><a class="nav_bas_lien" href="http://index.html">
+              Accueil
+            </a></li>
+          <li><a class="nav_bas_lien" href="http://contact.html">
+              Contact
+            </a></li>
+        </ul>
+      </div>
+      <div class="colonne">
+        À propos<br>
+        <ul>
+          <li><a class="nav_bas_lien" href="http://Données personnelles.html">
+              Données personnelles
+            </a></li>
+          <li><a class="nav_bas_lien" href="http://Mentions légales.html">
+              Mentions légales
+            </a></li>
+          <li><a class="nav_bas_lien" href="http://Cookies.html">
+              Cookies
+            </a></li>
+        </ul>
+      </div>
+      <div class="colonne">
+        Coordonnées<br>
+        <ul class="no_list_style">
+          <li>10 Quai de la Charente</li>
+          <li>75009 Paris</li>
+          <li>01 23 45 67 89</li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+</body>
+
 </html>
